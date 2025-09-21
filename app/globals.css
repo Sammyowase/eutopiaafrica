@@ -1,0 +1,187 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Updated color palette for Midnight in PJs brand */
+  --background: #ffffff;
+  --foreground: #1e3a78;
+  --card: #f8e1e1;
+  --card-foreground: #1e3a78;
+  --popover: #ffffff;
+  --popover-foreground: #1e3a78;
+  --primary: #1e3a78;
+  --primary-foreground: #ffffff;
+  --secondary: #e6d3b1;
+  --secondary-foreground: #1e3a78;
+  --muted: #f0f4f8;
+  --muted-foreground: #374151;
+  --accent: #ff6f61;
+  --accent-foreground: #ffffff;
+  --destructive: #e63946;
+  --destructive-foreground: #ffffff;
+  --border: #e6d3b1;
+  --input: #ffffff;
+  --ring: rgba(30, 58, 120, 0.5);
+  --chart-1: #ff6f61;
+  --chart-2: #e6d3b1;
+  --chart-3: #f8e1e1;
+  --chart-4: #1e3a78;
+  --chart-5: #ff6f61;
+  --radius: 0.5rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1e3a78;
+  --sidebar-primary: #f8e1e1;
+  --sidebar-primary-foreground: #1e3a78;
+  --sidebar-accent: #ff6f61;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #e6d3b1;
+  --sidebar-ring: rgba(30, 58, 120, 0.5);
+
+  /* Added custom brand colors */
+  --midnight-blue: #1e3a78;
+  --blush-pink: #f8e1e1;
+  --champagne-gold: #e6d3b1;
+  --coral-accent: #ff6f61;
+}
+
+.dark {
+  --background: #0b1426;
+  --foreground: #ffffff;
+  --card: #1e3a78;
+  --card-foreground: #ffffff;
+  --popover: #0b1426;
+  --popover-foreground: #ffffff;
+  --primary: #ff6f61;
+  --primary-foreground: #ffffff;
+  --secondary: #1e3a78;
+  --secondary-foreground: #ffffff;
+  --muted: #374151;
+  --muted-foreground: #9ca3af;
+  --accent: #ff6f61;
+  --accent-foreground: #ffffff;
+  --destructive: #e63946;
+  --destructive-foreground: #ffffff;
+  --border: #374151;
+  --input: #1e3a78;
+  --ring: rgba(255, 111, 97, 0.5);
+  --chart-1: #ff6f61;
+  --chart-2: #e6d3b1;
+  --chart-3: #f8e1e1;
+  --chart-4: #1e3a78;
+  --chart-5: #ff6f61;
+  --sidebar: #0b1426;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #1e3a78;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ff6f61;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #374151;
+  --sidebar-ring: rgba(255, 111, 97, 0.5);
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Hide scrollbar while keeping functionality */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+
+  /* Hide scrollbar for webkit browsers */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Enhanced animations and mobile-first utilities */
+  .sparkle-animation {
+    animation: sparkle 2s ease-in-out infinite;
+  }
+
+  @keyframes sparkle {
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.7;
+      transform: scale(1.05);
+    }
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, var(--midnight-blue), var(--coral-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .video-overlay {
+    background: linear-gradient(135deg, rgba(11, 20, 38, 0.7), rgba(30, 58, 120, 0.5));
+  }
+
+  /* Added smooth scrolling and mobile optimizations */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Mobile-first responsive utilities */
+  @media (max-width: 640px) {
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  /* Enhanced mobile navigation styles */
+  .mobile-nav-overlay {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}

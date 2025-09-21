@@ -1,0 +1,351 @@
+# Midnight in PJs - Complete Website Development Prompt
+
+## Project Overview
+Create a vibrant, TikTok/Instagram-inspired landing page for "Midnight in PJs" - a Christmas event targeting Nigerian university students. The website should feel like a social media experience with high energy, FOMO-inducing content, and interactive elements that drive engagement and ticket sales.
+
+## Brand Identity & Visual Style
+
+### Color Palette
+-Primary: Deep Forest Green (#1B4332)
+
+Secondary: Soft Blush Pink (#F8E8E8)
+
+Accent: Champagne Gold (#D4AF37)
+
+Supporting: Midnight Blue (#0B1426)
+
+### Typography Hierarchy
+- **Hero Headlines**: Extra bold, sans-serif, TikTok-style (48-72px)
+- **Section Headlines**: Bold, playful (32-42px)
+- **Body Text**: Rounded, friendly font (16-18px)
+- **CTAs**: Bold, all-caps when appropriate (18-24px)
+- **Emojis**: Integrated naturally throughout all text elements
+
+### Design Philosophy
+- **Social Media Native**: Design should feel like browsing TikTok/Instagram
+- **Mobile-First**: Optimized for smartphone users (primary audience)
+- **High Energy**: Bright, vibrant, attention-grabbing
+- **Interactive**: Hover effects, animations, engagement elements
+- **FOMO-Driven**: Scarcity, exclusivity, time-sensitive messaging
+
+## Technical Specifications
+
+### Performance Requirements
+- **Load Time**: Under 3 seconds on mobile
+- **Responsive Design**: Perfect on all device sizes
+- **Video Optimization**: Compressed background videos with fallback images
+- **Interactive Elements**: Smooth animations, hover effects
+- **Social Integration**: Easy sharing capabilities
+
+### Special Features to Implement
+1. **Fullscreen Video Background** (Hero section)
+2. **Countdown Timer** to event (sticky or prominent placement)
+3. **Interactive Grid** for highlights section
+4. **Wish Form** with sparkle/confetti effects
+5. **Social Proof Carousel** (fake tweets/IG posts style)
+6. **Floating CTAs** for ticket purchase
+7. **Cursor Sparkle Effect** (optional UX enhancement)
+
+## Detailed Section Breakdown
+
+### 1. Navigation Bar
+**Structure**: Horizontal, sticky on scroll
+**Items**:
+- 🎄 Home
+- 🎉 Highlights  
+- ✨ Make a Wish
+- 📸 Christmas Photo Shoot
+- 🏫 For Schools
+- 🤝 For Sponsors
+- 🎟 Tickets & PJs
+- 🔥 Hype Wall
+- 📩 Contact Us
+
+**Design**: Semi-transparent background, bold text with emoji integration
+
+### 2. Hero Section (Fullscreen)
+**Background**: Video loop featuring:
+- Fireworks exploding
+- Students laughing in Christmas pajamas
+- Claw machine wins
+- Floating lanterns
+- BBQ scenes
+- Red carpet camera flashes
+
+**Content Overlay**:
+```
+Main Headline: "The Christmas Party You Can't Miss 🎉"
+Subheading: "Pajamas • BBQ • Movies • Magic"
+Vision Statement: "We believe Christmas shouldn't be Detty December — but Joy, Love & Light."
+
+Primary CTAs:
+[Join the Waitlist 🎟] [Make a Wish ✨]
+```
+
+**Technical Notes**:
+- Video should be muted, autoplay, loop
+- Overlay should have subtle dark gradient for text readability
+- CTAs should be large, prominent buttons with hover animations
+
+### 3. Fun Highlights Section
+**Layout**: Interactive grid (3x3 or 2x4 depending on screen size)
+**Section Title**: "What's Waiting for You at Midnight in PJs?"
+
+**Grid Items** (each with icon, title, description):
+
+1. **📸 Christmas Photo Shoot (FREE)**
+   "Step on the red carpet, strike a pose with your crew in cozy pajamas. Professional shots — the kind you post on Christmas Day and make everyone jealous."
+
+2. **🎁 Claw Machine Madness**
+   "Win free gifts, surprises & even wishes granted live."
+
+3. **🍗 BBQ & Mocktails**
+   "Juicy grills + drinks that slap, no hangovers."
+
+4. **🎥 Outdoor Movie Night**
+   "Under the stars, in your coziest pajamas."
+
+5. **🎤 Sing-Along + Karaoke**
+   "From High School Musical to Christmas classics — your voice, your vibe."
+
+6. **👑 Pajama King & Queen**
+   "Slay your nightwear. Crown + bragging rights included."
+
+7. **🎆 Lantern Release + Fireworks**
+   "End the night in pure magic."
+
+**Interaction**: Hover effects with subtle animations, possibly expanding cards
+
+### 4. Value Proposition Section (FOMO)
+**Title**: "Do the Math. This is Insane Value. 🎄"
+
+**Content Structure**:
+```
+"Imagine paying separately…"
+• Christmas photo shoot with friends 📸 → ₦15,000+
+• Cinema movie ticket 🎥 → ₦5,000  
+• Pepsi + popcorn 🍿🥤 → ₦3,000
+• BBQ night out 🍗🔥 → ₦7,000
+• Claw machine games 🎁 → ₦2,000+
+
+Total = ₦32,000+
+
+But at Midnight in PJs you get it ALL 
+(plus karaoke, fireworks, free wishes, celebrity dinner chance) 
+for just ₦5,000.
+
+This is not a deal. This is a Christmas miracle. ✨
+```
+
+**Visual Treatment**: Large, bold numbers with strike-through animations
+
+### 5. Wishlist Magic Section
+**Background**: Sparkle/star pattern animation
+**Title**: "Make a Wish, Light the Sky ✨"
+
+**Content**:
+```
+🎆 Picture this…
+You and your friends, in your Christmas pajamas, writing your wishes 
+for the new year on a glowing lantern… then watching it float into 
+the night sky with hundreds of others.
+
+💫 It's not just a lantern — it's your dream, your prayer, your 2026 
+wish… rising together with music, fireworks, and laughter.
+
+👉 Will you fly a lantern?
+[✅ Yes, Count Me In!] [❌ I'll Just Watch]
+(Don't worry, we'll save one for you if you say yes 👀)
+```
+
+**Form Elements**:
+- Wish input field (large textarea)
+- Category selector (AirPods, sneakers, celebrity dinner, etc.)
+- User type buttons: [I'm a Student] [I'm a Sponsor]
+
+### 6. The Vibe Section (TikTok Carousel Style)
+**Layout**: Horizontal scrolling cards or vertical stack
+
+**Content Cards**:
+```
+❌ No Clubs.          ✅ Just Fireworks.
+❌ No Alcohol.        ✅ Just Food.  
+❌ No Stress.         ✅ Just Friends.
+
+🔥 A Tradition, Not Just a Party.
+```
+
+**Animation**: Auto-scrolling or swipe-enabled carousel
+
+### 7. Social Proof Section
+**Title**: "Student Hype Section"
+**Layout**: Social media post mockups
+
+**Mock Posts**:
+```
+💬 "Not me screaming karaoke in pajamas 😭🔥 #MidnightInPJs"
+💬 "Lanterns + fireworks = my Christmas is complete 🎆🎄"  
+💬 "Christmas photo shoot with my girls = IG on lock 📸✨"
+💬 "This is better than Detty December fr."
+```
+
+**Interactive Elements**: 
+- Share buttons: [Tweet this] [Share on IG story]
+- Like/heart animations on hover
+
+### 8. Vision Statement (Minimalist)
+**Content**: "We're redefining Christmas for students — from Detty December to Joy, Love & Light. 🌟"
+**Design**: Clean, centered, large text with subtle background
+
+### 9. Pajama Shop Section
+**Title**: "Get Your PJs! 🎄"
+**Content**:
+```
+Want to slay the Midnight in PJs red carpet?
+Shop matching Christmas pajamas for you & your squad right here.
+
+👯‍♀ Besties sets | 💑 Couple sets | 👨‍👩‍👧 Family vibes
+
+[Shop the Collection]
+(Limited stock — order early so you don't miss out!)
+```
+
+### 10. Final CTA Section
+**Title**: "This isn't just a party. It's a Christmas tradition every student will talk about. 🎄"
+
+**CTAs**: 
+- [🚀 Bring It to My School]
+- [🎟 Get My Ticket]
+
+**Additional Element**: Countdown timer
+"⏰ Countdown to Midnight in PJs: XX days left"
+
+## Specialized Pages
+
+### For Schools Page
+**Headline**: "Only a Few Schools Will Host this Magic. ✨"
+
+**Content**:
+```
+Christmas wish party isn't for everyone. We're creating a new Christmas 
+tradition — and only a few selected universities will be allowed to host 
+it this December.
+
+Slots are extremely limited. Once we finalize approvals, the list closes 
+— and the spotlight shifts elsewhere.
+
+Hosting means:
+🎥 National buzz
+🚀 Students posting, trending  
+👑 Prestige as a values + fun campus
+```
+
+**CTA**: [🎓 Claim Your Spot]
+
+### For Sponsors Page
+**Headline**: "Not Every Brand Gets Into the Claw Machine. 🎁"
+
+**Content**:
+```
+Thousands of students. Pajamas. Fireworks. Cameras flashing.
+And in the middle of it all — your product, in their hands, in their posts, 
+in their hostels.
+
+This isn't ordinary sponsorship. It's direct access to Gen Z hearts — 
+the buyers of today and tomorrow.
+
+👉 Here's the magic:
+• Students live together in hostels. If your product slaps, it spreads like wildfire
+• Your brand becomes part of the conversation, the hype, the clout
+
+⚡ Rules of the game:
+• Only 2 brands per category, per school
+• Once a slot is gone, it's gone  
+• Getting picked is a privilege, not a guarantee
+
+Categories:
+💍 Jewelry & Accessories | 👟 Sneakers & Streetwear | 💄 Beauty & Skincare
+📱 Tech & Gadgets | 🥤 Food & Drinks
+```
+
+**CTA**: [🚀 Apply for a Slot]
+
+## User Experience Enhancements
+
+### Interactive Elements
+1. **Hover Animations**: Cards lift, glow, or expand slightly
+2. **Button Effects**: Glow, pulse, or color change on hover
+3. **Scroll Animations**: Elements fade in or slide in as user scrolls
+4. **Cursor Effects**: Optional sparkle trail (can be toggled)
+5. **Loading Animations**: Fun, Christmas-themed loading screens
+
+### Mobile Optimization
+- **Touch-Friendly**: All buttons minimum 44px touch target
+- **Swipe Gestures**: Horizontal scrolling sections support swipe
+- **Fast Loading**: Optimized images and compressed videos
+- **Readable Text**: Sufficient contrast and size on small screens
+
+### Accessibility Considerations
+- **Alt Text**: All images and emojis have descriptive alt text
+- **Keyboard Navigation**: All interactive elements keyboard accessible  
+- **Color Contrast**: Meets WCAG guidelines
+- **Screen Reader**: Proper heading hierarchy and ARIA labels
+
+## Content Guidelines
+
+### Tone of Voice
+- **Energetic**: Exclamation points, dynamic language
+- **Inclusive**: "You and your friends", "your crew"  
+- **FOMO-Driven**: "Limited", "exclusive", "can't miss"
+- **Social Media Native**: Hashtags, abbreviations, current slang
+- **Value-Focused**: Clear benefits, price comparisons
+
+### Nigerian Context
+- **Currency**: Use ₦ (Naira) symbol for all prices
+- **Cultural References**: "Detty December" (local Christmas party culture)
+- **University Life**: Hostels, student lifestyle references
+- **Local Slang**: "slaps" (means good), "fr" (for real)
+
+### Call-to-Action Strategy
+- **Primary**: Ticket purchase/waitlist signup
+- **Secondary**: School hosting requests
+- **Tertiary**: Sponsor applications, wish submissions
+- **Social**: Sharing, following social accounts
+
+## Technical Implementation Notes
+
+### Development Framework
+- **Responsive**: CSS Grid/Flexbox for layouts
+- **Animation Library**: Consider GSAP or CSS animations
+- **Video Handling**: Multiple formats (MP4, WebM) with fallbacks
+- **Form Processing**: Secure handling of user submissions
+- **Analytics**: Google Analytics or similar for tracking
+
+### Performance Optimization
+- **Image Compression**: WebP format where supported
+- **Lazy Loading**: Images and videos load as needed
+- **Minification**: CSS, JS, and HTML compression
+- **CDN**: Content delivery network for faster loading
+
+### Browser Compatibility
+- **Modern Browsers**: Chrome, Firefox, Safari, Edge
+- **Mobile Browsers**: iOS Safari, Chrome Mobile
+- **Fallbacks**: Graceful degradation for older browsers
+
+## Success Metrics
+
+### Primary KPIs
+- **Ticket Sales**: Direct revenue generation
+- **Email Signups**: Waitlist subscriptions
+- **Social Shares**: Viral coefficient measurement
+- **School Applications**: Venue partnership requests
+- **Sponsor Inquiries**: Revenue partnership potential
+
+### Engagement Metrics
+- **Time on Site**: User engagement depth
+- **Scroll Depth**: Content consumption rate
+- **Video Completion**: Hero video engagement
+- **Form Submissions**: Wish list participation
+- **Mobile vs Desktop**: Device usage patterns
+
+This comprehensive prompt should guide the development of a highly engaging, conversion-focused website that captures the energy and excitement of the Midnight in PJs Christmas event while serving the needs of students, schools, and sponsors.
