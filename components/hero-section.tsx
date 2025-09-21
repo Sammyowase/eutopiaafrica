@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button"
 import { ChevronDown, Ticket, Heart, Clock, PartyPopper, Shirt, UtensilsCrossed, Video, Sparkles } from "lucide-react"
 
 const carouselImages = [
-  "/images/christmas-party-with-students-in-pajamas--firework.jpg",
+  "/christmas-party-with-students-in-pajamas--firework.jpg",
   "/images/alexander-mass-dz40fgC_VLQ-unsplash.jpg",
   "/images/padmira-shop-j6AWfWf7AyM-unsplash.jpg",
   "/images/pexels-designecologist-2526105.jpg",
   "/images/pexels-palomaclaricefotografia-12887817.jpg",
   "/images/pexels-samerdaboul-2233729.jpg",
   "/images/vincent-guth-_E_ySzvSJRI-unsplash.jpg",
-  "/images/university-students-christmas-celebration-in-pajam.jpg",
+  "/university-students-christmas-celebration-in-pajam.jpg",
 ]
 
 export function HeroSection() {
