@@ -169,7 +169,7 @@ export function ValuePropositionSection() {
                 <p className="text-xs sm:text-sm text-white/70 mb-3 sm:mb-4">
                   (plus karaoke, fireworks, free wishes, celebrity dinner chance)
                 </p>
-                <div className="text-3xl sm:text-4xl font-bold text-white mb-2">for just ₦5,000</div>
+                <div className="text-3xl sm:text-4xl font-bold text-white mb-2">for just ₦9,000</div>
                 <p className="text-base sm:text-lg font-semibold text-accent">
                   This is not a deal. This is a Christmas miracle. ✨
                 </p>
